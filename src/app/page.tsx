@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   },
   other: {
     'fc:frame': 'vNext',
-    'fc:frame:image': 'https://imgur.com/a/aQaUK5q',
+    'fc:frame:image': 'https://imgur.com/a/Vcdipc7',
     'fc:frame:image:aspect_ratio': '1.91:1',
     'fc:frame:button:1': 'Ethereum',
     'fc:frame:button:2': 'Solana',
