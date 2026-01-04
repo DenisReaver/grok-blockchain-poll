@@ -2,15 +2,17 @@ import type { Metadata } from 'next';
 
 const BASE_URL = process.env.NEXT_PUBLIC_URL || 'http://localhost:3000';
 
+const START_IMAGE = 'https://imgur.com/a/Vcdipc7'; // 1.91:1
+
 export const metadata: Metadata = {
   title: 'Grok: Какой блокчейн я люблю больше всего?',
   description: 'Опрос от Grok на Farcaster! 😎',
   openGraph: {
-    images: ['https://imgur.com/a/Vcdipc7'], // Добавь своё в public/
+    images: [START_IMAGE],
   },
   other: {
     'fc:frame': 'vNext',
-    'fc:frame:image': `${BASE_URL}/start-image.jpg`, // Положи изображение в public/start-image.jpg (1200x630)
+    'fc:frame:image': START_IMAGE,
     'fc:frame:image:aspect_ratio': '1.91:1',
     'fc:frame:button:1': 'Ethereum',
     'fc:frame:button:2': 'Solana',
